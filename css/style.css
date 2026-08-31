@@ -352,4 +352,156 @@ footer div {
         gap: 15px;
     }
 }
+
+```css
+/* ------------------------------
+   STATISTICAL MODELLING PAGE
+------------------------------ */
+
+.page-header {
+    max-width: 1150px;
+    margin: auto;
+    padding: 100px 30px 80px;
+}
+
+.page-header h1 {
+    font-size: clamp(60px, 8vw, 100px);
+    line-height: 0.95;
+    letter-spacing: -5px;
+    margin-bottom: 35px;
+}
+
+.page-header h1 span {
+    color: #666;
+}
+
+.page-intro {
+    max-width: 650px;
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* ------------------------------
+   ANALYSIS PROJECT
+------------------------------ */
+
+.analysis-section {
+    background: white;
+
+    max-width: 1150px;
+    margin: 0 auto 80px;
+
+    padding: 70px 60px;
+
+    display: grid;
+    grid-template-columns: 100px 1fr;
+
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.analysis-number {
+    font-size: 14px;
+    color: #999;
+}
+
+.analysis-content {
+    max-width: 750px;
+}
+
+.analysis-content h2 {
+    font-size: 42px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 30px;
+}
+
+.analysis-description {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+
+/* ------------------------------
+   SKILLS
+------------------------------ */
+
+.analysis-content h3 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.analysis-skills {
+    padding-left: 22px;
+    margin-bottom: 35px;
+}
+
+.analysis-skills li {
+    color: #555;
+    margin-bottom: 8px;
+}
+
+
+/* ------------------------------
+   PDF BUTTON
+------------------------------ */
+
+.pdf-button {
+    display: inline-block;
+
+    background: #171717;
+    color: white;
+
+    padding: 14px 22px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    border-radius: 4px;
+
+    transition: 0.2s ease;
+}
+
+.pdf-button:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ------------------------------
+   BACK LINK
+------------------------------ */
+
+.back-section {
+    max-width: 1150px;
+    margin: auto;
+    padding: 0 30px 100px;
+}
+
+
+/* ------------------------------
+   MOBILE
+------------------------------ */
+
+@media (max-width: 800px) {
+
+    .page-header {
+        padding-top: 70px;
+    }
+
+    .analysis-section {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 50px 30px;
+    }
+
+    .analysis-content h2 {
+        font-size: 32px;
+    }
+
+}
+```
+
 ```
